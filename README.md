@@ -1,5 +1,10 @@
 # LoanTracker: Enterprise Loan Tracking & Prepayment Analytics
 
+[![CI](https://github.com/loan-tracker/loan-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/loan-tracker/loan-tracker/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18-blue)](https://react.dev/)
+
 An enterprise-grade, responsive, local-first web application built with React, TypeScript, Redux Toolkit, and Tailwind CSS. It enables borrowers to track loans, model amortization schedules, record actual payments, schedule flexible part-payments, and simulate prepayment strategies with deterministic financial calculations.
 
 ---
@@ -104,4 +109,16 @@ npm run lint
 - [FINANCIAL_CALCULATIONS.md](FINANCIAL_CALCULATIONS.md): Formal financial calculation specification, precision standards, and invariants.
 - [CSV_SCHEMA.md](CSV_SCHEMA.md): Complete CSV schema documentation and format specification.
 - [TESTING.md](TESTING.md): Testing strategy, test suites, and reference fixtures.
+
+---
+
+## Community Standards & Contributing
+
+We welcome community contributions, bug reports, and prepayment strategy ideas!
+
+- **[Contributing Guide](CONTRIBUTING.md)**: Development setup, coding guidelines, financial invariants, and PR process.
+- **[Code of Conduct](CODE_OF_CONDUCT.md)**: Contributor Covenant standards and community pledge.
+- **[Security Policy](SECURITY.md)**: Vulnerability disclosure and local-first zero-telemetry architecture.
+- **[License](LICENSE)**: MIT License.
+
 

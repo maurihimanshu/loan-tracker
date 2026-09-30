@@ -2,6 +2,8 @@
   "name": "loan-tracker",
   "private": true,
   "version": "1.0.0",
+  "description": "Enterprise-grade, privacy-focused loan tracking and prepayment analytics web app with deterministic financial calculations.",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
