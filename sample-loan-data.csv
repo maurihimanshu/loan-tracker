@@ -1,0 +1,11 @@
+schemaVersion,recordType,loanId,entityId,date,amount,principal,interest,status,frequency,amountType,treatment,description,metadata
+1,LOAN,sample-loan-1,sample-loan-1,2026-09-15,5000000.00,5000000.00,8.5,ACTIVE,MONTHLY,FIXED,REDUCE_TENURE,"HDFC Prime Home Loan","{""firstEmiDate"":""2026-11-05"",""originalTenureMonths"":240,""interestMethod"":""MONTHLY_REDUCING_BALANCE"",""currency"":""INR"",""notes"":""₹50L Sanction with ₹25K planned monthly prepayments""}"
+1,BROKEN_PERIOD,sample-loan-1,bp-sample-loan-1,2026-09-15,,,,,INTEREST_ONLY,Broken Period Configuration,"{""endDate"":""2026-11-05"",""dayCount"":""ACTUAL_365""}"
+1,PAYMENT,sample-loan-1,event-1,2026-11-05,43391.00,7974.00,35417.00,ACTUAL,,FIXED,,"First EMI payment","{""type"":""EMI"",""source"":""USER_ENTERED""}"
+1,PAYMENT,sample-loan-1,event-2,2026-12-05,43391.00,8031.00,35360.00,ACTUAL,,FIXED,,"Second EMI payment","{""type"":""EMI"",""source"":""USER_ENTERED""}"
+1,PART_PAYMENT,sample-loan-1,event-3,2026-12-15,100000.00,,,ACTUAL,,FIXED,,"Year-end Bonus Prepayment ₹1,00,000","{""type"":""PART_PAYMENT"",""source"":""USER_ENTERED""}"
+1,PART_PAYMENT_RULE,sample-loan-1,rule-1,2027-01-05,25000.00,,,ACTIVE,MONTHLY,FIXED,REDUCE_TENURE,"Extra monthly prepayment plan","{""endDate"":""2030-12-05""}"
+1,PART_PAYMENT_OVERRIDE,sample-loan-1,ov-1,2027-03-05,50000.00,,,ACTIVE,,FIXED,,"Diwali bonus boost ₹50,000","{""cancelled"":false}"
+1,PART_PAYMENT_OVERRIDE,sample-loan-1,ov-2,2027-07-05,0.00,,,CANCELLED,,FIXED,,"Skip July prepayment for travel","{""cancelled"":true}"
+1,SCENARIO,sample-loan-1,scen-1,2027-01-05,50000.00,,,ACTIVE,MONTHLY,FIXED,REDUCE_TENURE,"Aggressive ₹50K Monthly Plan","{""description"":""Close loan within 8 years"",""oneTimePayments"":[]}"
+
